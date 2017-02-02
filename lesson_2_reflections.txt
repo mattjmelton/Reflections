@@ -2,5 +2,7 @@ What happens when you initialize a repository? Why do you need to do it?
 Git creates a hidden file called .git that will hold the metadata for the repository and its files.  We can then use git commands on the repository to manipulate and operate on the files and their history.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-The staging area allows you to organize the repository by committing related files.
+The staging area is a separate holding area where changes to files wait to be committed.  The working directory is where the next changes are made but haven't been committed to the repository. The staging area allows you to organize the repository by committing related files.  It also allows you to check that the right changes are being made.
 
+How can you use the staging area to make sure you have one commit per logical change?
+Use git diff to check the changes between the working directory and the staging area.  Use git diff --staged to check the changes between the staging area and the most recent commit.  git status will show the number of files ready to be committed.
