@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it?
+Git creates a hidden file called .git that will hold the metadata for the repository and its files.  We can then use git commands on the repository to manipulate and operate on the files and their history.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area allows you to organize the repository by committing related files.
+
