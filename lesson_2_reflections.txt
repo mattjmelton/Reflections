@@ -12,3 +12,6 @@ When adding an experimental feature or refactoring the code it is helpful to bra
 
 How do diagrams help you visualize the branch structure?
 Diagrams help to understand which commits belong to which parents and if a commit is reachable.  It helps to know where the branch deviated from the master and how big the differences or merge that would be required to be made when bringing the branch back into the master.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+All commits from both branches are combined to form one branch.  Represent the merge by reparenting to the master keeps the master as the main branch.
