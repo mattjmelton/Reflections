@@ -9,3 +9,6 @@ Use git diff to check the changes between the working directory and the staging 
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 When adding an experimental feature or refactoring the code it is helpful to branch from the master.  Branches help by keeping a set of changes isolated from the master branch.  Multiple developers can be working off of the master by using branches.
+
+How do diagrams help you visualize the branch structure?
+Diagrams help to understand which commits belong to which parents and if a commit is reachable.  It helps to know where the branch deviated from the master and how big the differences or merge that would be required to be made when bringing the branch back into the master.
