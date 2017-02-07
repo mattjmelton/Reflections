@@ -15,3 +15,7 @@ Diagrams help to understand which commits belong to which parents and if a commi
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 All commits from both branches are combined to form one branch.  Represent the merge by reparenting to the master keeps the master as the main branch.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+PROS: All changes are combined into a single branch and the tip has all changes in one single command.
+CONS: If there are conflicts detected it doesn't automatically merge.  This could be seen as a PRO though.
