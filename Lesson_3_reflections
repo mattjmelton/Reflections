@@ -13,4 +13,8 @@ What is the benefit of having a copy of the last known state of the remote store
 	Being in sync with your remote gives you a known point of departure if work will be done locally or others or contributing to the remote.  You'll know what changes will need to be reviewed and merged if desired.  I struggled with the quiz about reachability of b and a branches but I think I finally got it after the last explanation.  Trace the parents of b all the way back to the original commit and if you don't cross the "a" commit than it is unreachable.
 
 	
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+	To collaborate without using Git or Github I would have to send a copy of my files to someone else to edit and they would have to send back their changes to me.  I would then have to look through each one and copy/paste or somehow combine the changes.  This complexity would increase as more people wanted to collaborate.
+	One way it would be easier is that I wouldn't have to use Git or GitHub, but these tools allow for an organized and orderly way to share, review, and combine changes from many people.
+
 	
