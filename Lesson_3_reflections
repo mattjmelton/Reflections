@@ -17,4 +17,6 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 	To collaborate without using Git or Github I would have to send a copy of my files to someone else to edit and they would have to send back their changes to me.  I would then have to look through each one and copy/paste or somehow combine the changes.  This complexity would increase as more people wanted to collaborate.
 	One way it would be easier is that I wouldn't have to use Git or GitHub, but these tools allow for an organized and orderly way to share, review, and combine changes from many people.
 
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+	When I have changes that will directly affect the master but I don't yet want to have master be affected.  Having branches allows for experimentation and changes without "breaking" the master.  There is some degree of complication to merge back to master all of the different changes but that allows those using master to continue without breaking.  This couldn't happen if everyone was working off of master.
 	
